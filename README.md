@@ -51,3 +51,15 @@ xxxxx
 
 ![image](/docs/images/1.png)
 </details>
+
+## 本地查看
+1. 打开终端
+2. 进入项目目录：
+```
+cd /Users/zhangjiaxing/leadsout/page
+```
+3. 启动本地服务器：
+```
+python3 -m http.server 8000
+```
+4. 在浏览器中访问：http://localhost:8000

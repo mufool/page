@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>免费开发者资源 - Free for Dev</title>
+    <style>
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            background-color: #f8f9fa;
+            color: #333;
+        }
+        .container {
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        header {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            text-align: center;
+            padding: 2rem 0;
+            border-radius: 8px;
+            margin-bottom: 2rem;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+        }
+        h1 {
+            margin: 0;
+            font-size: 2.5rem;
+        }
+        .subtitle {
+            font-size: 1.2rem;
+            opacity: 0.9;
+            margin-top: 0.5rem;
+        }
+        .content {
+            background: white;
+            padding: 2rem;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+            margin-bottom: 2rem;
+        }
+        .features {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 1.5rem;
+            margin: 2rem 0;
+        }
+        .feature-card {
+            background: #f8f9fa;
+            padding: 1.5rem;
+            border-radius: 8px;
+            border-left: 4px solid #667eea;
+        }
+        .feature-card h3 {
+            margin-top: 0;
+            color: #667eea;
+        }
+        .cta-button {
+            display: inline-block;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 12px 24px;
+            text-decoration: none;
+            border-radius: 4px;
+            font-weight: bold;
+            transition: transform 0.2s;
+            margin: 1rem 0;
+        }
+        .cta-button:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+        }
+        .back-link {
+            text-align: center;
+            margin: 2rem 0;
+        }
+        footer {
+            text-align: center;
+            padding: 1rem;
+            color: #6c757d;
+            font-size: 0.9rem;
+        }
+        @media (max-width: 768px) {
+            .container {
+                padding: 10px;
+            }
+            h1 {
+                font-size: 2rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Free for Dev</h1>
+            <div class="subtitle">开发者免费资源大全</div>
+        </header>
+        
+        <div class="content">
+            <h2>关于 Free for Dev</h2>
+            <p><a href="https://free-for.dev/" target="_blank">Free for Dev</a> 是一个收集各类开发者免费资源的网站，汇集了众多云服务提供商、工具和服务商提供的免费套餐，帮助开发者在项目初期节省成本。</p>
+            
+            <div class="features">
+                <div class="feature-card">
+                    <h3>云服务平台</h3>
+                    <p>收录各大云服务商的免费套餐，包括 AWS、Google Cloud、Microsoft Azure 等，帮助开发者在项目初期获得免费计算资源。</p>
+                </div>
+                
+                <div class="feature-card">
+                    <h3>开发工具</h3>
+                    <p>整理各类开发工具的免费版本，包括 IDE、代码编辑器、版本控制工具等，让开发者能够零成本开始编程。</p>
+                </div>
+                
+                <div class="feature-card">
+                    <h3>API 服务</h3>
+                    <p>收集提供免费额度的 API 服务，如地图服务、短信服务、支付接口等，帮助开发者快速集成功能。</p>
+                </div>
+            </div>
+            
+            <h2>主要特色</h2>
+            <ul>
+                <li><strong>全面覆盖</strong>：涵盖各种类型的开发者工具和服务</li>
+                <li><strong>实时更新</strong>：持续跟踪各平台免费政策的变化</li>
+                <li><strong>分类清晰</strong>：按类别整理资源，便于查找</li>
+                <li><strong>详细说明</strong>：提供每个免费服务的具体限制和使用条件</li>
+            </ul>
+            
+            <h2>适用人群</h2>
+            <p>无论是个人开发者、初创团队还是学习编程的学生，都可以从这个资源列表中受益：</p>
+            <ul>
+                <li>想要启动新项目的创业者</li>
+                <li>预算有限的开发团队</li>
+                <li>学习新技术的学生和爱好者</li>
+                <li>希望降低开发成本的企业</li>
+            </ul>
+            
+            <div style="text-align: center; margin: 2rem 0;">
+                <a href="https://free-for.dev/" target="_blank" class="cta-button">
+                    访问官方网站
+                </a>
+            </div>
+        </div>
+        
+        <div class="back-link">
+            <a href="index.html" class="cta-button">返回首页</a>
+        </div>
+        
+        <footer>
+            <p>© 2025 开发者资源汇总 | 资源来源于社区整理</p>
+        </footer>
+    </div>
+</body>
+</html>
