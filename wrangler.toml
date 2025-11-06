@@ -1,13 +1,5 @@
-name = "agents-tutorial-page"
+name = "page"
 compatibility_date = "2023-10-16"
 
 [assets]
 directory = "./"
-
-[site]
-bucket = "./"
-entry-point = "."
-
-[build]
-command = ""
-watch_dir = "./"
