@@ -1,0 +1,10 @@
+name = "agents-tutorial-page"
+compatibility_date = "2023-10-16"
+
+[site]
+bucket = "./"
+entry-point = "."
+
+[build]
+command = ""
+watch_dir = "./"
